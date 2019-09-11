@@ -1,3 +1,14 @@
+# install java on ubuntu 14:04
+#
+   45  apt-get -y -q install software-properties-common htop
+   46  add-apt-repository ppa:openjdk-r/ppa
+   47  apt-get update
+   48  apt-get install openjdk-8-jre
+   49  java -version
+   # run command below to pick your choice of java version for the machine
+   #
+   50  update-alternatives --config java
+   51  java -version
 # download kafka from confluent hub
 
 # untar the file
